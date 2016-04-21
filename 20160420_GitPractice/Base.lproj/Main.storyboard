@@ -23,8 +23,14 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second label with Auto Layout; committed on the master branch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsK-Jk-OOu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Second label with Auto Layout; committed on branch01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NsK-Jk-OOu">
                                 <rect key="frame" x="0.0" y="61" width="600" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Third label with Auto Layout; committed on branch01" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kQu-as-ooT">
+                                <rect key="frame" x="0.0" y="92" width="600" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -33,8 +39,11 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="JwI-gA-EGt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="1Db-U6-afk"/>
+                            <constraint firstItem="kQu-as-ooT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="LPU-Vc-fJy"/>
                             <constraint firstAttribute="trailing" secondItem="NsK-Jk-OOu" secondAttribute="trailing" id="OZC-sU-uxW"/>
+                            <constraint firstAttribute="trailing" secondItem="kQu-as-ooT" secondAttribute="trailing" id="asC-ty-z6y"/>
                             <constraint firstItem="JwI-gA-EGt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="hao-7G-HtS"/>
+                            <constraint firstItem="kQu-as-ooT" firstAttribute="top" secondItem="NsK-Jk-OOu" secondAttribute="bottom" constant="10" id="loW-dk-3hH"/>
                             <constraint firstItem="NsK-Jk-OOu" firstAttribute="top" secondItem="JwI-gA-EGt" secondAttribute="bottom" constant="10" id="lus-cf-hGZ"/>
                             <constraint firstAttribute="trailing" secondItem="JwI-gA-EGt" secondAttribute="trailing" id="ni9-K9-Bgx"/>
                             <constraint firstItem="NsK-Jk-OOu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="y6M-Jh-H6w"/>
